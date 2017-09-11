@@ -1,2 +1,0 @@
-# personalWeb
-CV Website
