@@ -1,0 +1,42 @@
+body {
+    padding-top: 70px;
+    /*background-color: #191919;*/
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+.nav.navbar-nav.navbar-right li a:hover:not(.active) {
+    background-color: #4d4b4f;
+}
+
+.navbar-default .navbar-brand:hover:not(.active) {
+    background-color: #4d4b4f;
+}
+
+.active a{
+    background-color: #098d96 !important;
+}
+
+#text {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
+.fa {
+    font-size: 15px;
+
+}
+
+.container {
+    
+}
