@@ -2519,6 +2519,10 @@
 			width: 60%;
 		}
 
+		.spotlight .content h1 {
+			color: #21b2a6;
+		}
+
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;

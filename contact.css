@@ -1,6 +1,22 @@
+#maintext {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.linkTxt {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4em;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 25px;
+}
+
 body {
     padding-top: 70px;
-    /*background-color: #191919;*/
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -24,26 +40,21 @@ body {
 }
 
 .active a{
-    background-color: #000000 !important;
+    background-color: #098d96 !important;
 }
 
-#text {
-    font-family: 'Josefin Sans', sans-serif;
-    color: black;
+a:link {
+    text-decoration: none;
 }
 
-.fa {
-    font-size: 15px;
+a:visited {
+    text-decoration: none;
 }
 
-/*.container {
-    color: #000000;
-}*/
-
-/*i {
-    color: #000000;
+a:hover {
+    text-decoration: none;
 }
 
-.btn {
-    color: #000000;
-}*/
+a:active {
+    text-decoration: none;
+}
