@@ -10,7 +10,7 @@ Welcome to my CV website repository
 
 * **Weston Mauz**
 
-##Credits:
+## Credits:
 
 	Template:
 		https://html5up.net/
