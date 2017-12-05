@@ -8,7 +8,7 @@ Welcome to my CV website repository
 
 ## Author
 
-* **Weston Mauz** *
+* **Weston Mauz**
 
 ##Credits:
 
