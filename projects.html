@@ -1,125 +1,173 @@
 <!DOCTYPE HTML>
 
+<!--
+	Author: Weston Mauz
+	Date: September 3, 2020
+-->
+
 <link rel="icon" href="images/icon.png">
 
 <html>
 	<head>
-		<title>Projects</title>
+		<title>Projects</title> 
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://kit.fontawesome.com/c79d739ce7.js" crossorigin="anonymous"></script>
 	</head>
-	<body>
+
+	<body class="is-preload">
 
 		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+		<div id="page-wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Weston Mauz</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="about.html">About</a></li>
-											<li><a href="education.html">Education</a></li>
-											<li><a href="work.html">Work Experience</a></li>
-											<li><a href="projects.html">Projects</a></li>
-											<li><a href="photography.html">Photography</a></li>
-											<li><a href="https://drive.google.com/file/d/1MddxWPlaxljdhLRIzOpa-6Xc1qNDcB3n/view?usp=sharing" target="_blank">Resume</a></li>
-											<li><a href="#footer" class="more scrolly">Contact</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+			<!-- Navigation -->
+			<header id="header" class="alt">
+				<h1><a href="index.html">Weston Mauz</a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="special">
+							<a href="#menu" class="menuToggle"><span>Menu</span></a>
+							<div id="menu">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="education.html">Education</a></li>
+									<li><a href="work.html">Work Experience</a></li>
+									<li><a href="projects.html">Projects</a></li>
+									<li><a href="photography.html">Photography</a></li>
+									<li><a href="https://docs.google.com/document/d/1-f-1SGleBnoUNpsNnrN9gUmfEthMnlwiphzjP6T8Xw8/edit?usp=sharing" target="_blank">Resume</a></li>
+									<li><a href="#footer" class="more scrolly">Contact</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</header>
 
-				<!-- Main -->
-					<article id="main5">
+		<!-- Main -->
+			<article id="main">
+				<header>
+					<h2>Projects</h2>
+				</header>
+
+				<section class="spotlight">
+					<div class="image"><img src="images/smart-grocery.png" alt="" /></div><div class="content">
+
 						<header>
-							<h2>Projects</h2>
-							<!-- <p>Just who is, Weston Mauz?</p> -->
+							<h2> Smart Grocery </h2>
+							<p> iOS Project: Summer 2020-present</p>
 						</header>
-					</article>
 
-					<section class="spotlight">
-							<div class="image"><img src="images/Liv_Fit_opt.jpg" alt="" /></div><div class="content">
-								<h2>FitPhotage</h2>
-								<p> This is my second IOS app that I am currently building with my business partner, <a href="https://kliao2016.github.io" target="kliao"> Kevin Liao</a>. We are building this app for a small local business that does personal training. We are working under our startup business, Winged Burro Studios.</p>
+						<p>Smart Grocery is the third and most recent iOS app that I am building with my friend and business partner, <a href="https://kliao2016.github.io" target="kliao"> Kevin Liao</a>. Now that we have both gained professional experience with app development, we have a much stronger understanding of what it takes to build great software. Learning from the mistakes of our previous apps in addition to our new experience has set us up for success.</p>
 
-								<p> The main function of the app is to create a central hub for all of the clients participating in these workout programs. Workouts are now able to be centralized on a single website and can be easily modified and changed for all clients at once. Users are now able to view their progress within the app by entering their workout data daily. Measurements and progress can be seen by the trainer, making it more efficient and helpful for the trainer and the clients. </p>
+						<p>We are currently in the development phase for this application. Our intention is to sell the finished application and integrate the software into the customer's existing architechture. We are building the app within our business: Winged Burro Studios</p>
 
-								<p> Contrary to our past IOS app, we have programmed the majority of the app through code, instead of through the storyboard: making it more versatile and efficient. The app is using Google Firebase to securely store files and user data. An android version of the app will be started after completion of the IOS app and the website. </p>
-							</div>
-					</section>
+						<p>The application is being built in SwiftUI to support the future of iOS development. Cloud Firestore is the current database we are using since we wanted to use a scalable noSQL database. The app architechure allows us to interchange databases, so we may pivot moving forward based on potential clients. The app is utilizing an Model-View-View Model architechture with repositories for database interaction. Aside from Firestore, no 3rd party plugins will be used in this application.</p>
 
-					<section class="spotlight">
-							<div class="image"><img src="images/MyCaddie_opt.png" alt="" /></div><div class="content">
-								<h2>MyCaddie</h2>
-								<p>During the summer of 2017 I worked with my good friend <a href="https://kliao2016.github.io" target="kliao"> Kevin Liao</a> on our first IOS app. Neither of us had any experience with app building, but we decided to give it our best shot. We have finished the app and it was uploaded to the app store January 1st, 2018.</p>
+						<p>The repository is private, as we intend to turn this into a business venture. If you have any inquiries, please reach out to me for more information.</p>
+					</div>
+				</section>
 
-								<p>The app uses a Firebase database to keep user and golf course data securely on the cloud. It was programmed in Xcode using the Swift programming language. Design work for the app was done using Sketch. The repository of the app can be found on Github.</p>
+				
+				<section class="spotlight">
+					<div class="image"><img src="images/liv-fit.jpg" alt="" /></div><div class="content">
 
-								<p>Check out the app's website: <a href="http://mycaddie.tk" target="wmauz"> MyCaddie Website</a></p>
+						<header>
+							<h2> FitPhotage </h2>
+							<p> iOS Project: 2018 </p>
+						</header>
 
-								<p>Here is the repository on Github: <a href="https://github.com/kliao2016/MyCaddie" target="wmauz"> MyCaddie Repository</a></p>
-							</div>
-					</section>
+						<p> This is the second iOS app that I built with my business partner, <a href="https://kliao2016.github.io" target="kliao"> Kevin Liao</a>. We initally signed on to build this app for a local small business that does personal training. We worked under the umbrella of our startup business, Winged Burro Studios.</p>
 
-					<section class="spotlight">
-							<div class="image"><img src="images/Temple.png" alt="" /></div><div class="content">
-								<h2>Chroma Temple</h2>
-								<p> I participated in a Game Jam at USC in the Fall of 2017 with absolutely no knowledge of game development or Unity. Over the course of 24 hours, I worked with five others who had limited knowledge of game development, but we managed to produce a basic 2D roguelike game called "Chroma Temple".</p>
+						<p> The main function of the app was to create a central hub for all of the clients participating in these workout programs. Workouts were meant to be centralized on a single website in order to be easily modified for all clients at once. Users were to be able to view their progress within the app by entering their daily workout data. Measurements and progress of the clients could be seen by the trainer, making the training more effective. </p>
 
-								<p> The theme of the Jam was "Color", so we decided to make a game where you were placed in a black and white world where you had to collect 3 elements/color and restore them to the world. </p>
+						<p> Contrary to our past IOS app, the majority of the app was programmed through code, instead of through the storyboard: making it more versatile, efficient, and customizable. The app used Google Firebase to securely store files and user data. </p>
 
-								<p> Overall, the game was not very good, but I am happy with how our group of inexperienced game developers were able to produce a functioning game in 24 hours. </p>
-							</div>
-					</section>
+						<p>This project fell through, as the client was no longer looking for a mobile application.</p>
 
-					<section class="spotlight">
-							<div class="image"><img src="images/Glove_opt.jpg" alt="" /></div><div class="content">
-								<h2>Gaming Glove</h2>
-								<p>During the Spring semester of 2016, I made a video-gaming glove with my partner for the class, John Hickey. Our task was to create something using Matlab, Arduino, and four sensors.</p>
+						<p>Here is the repository on Github: <a href="https://github.com/wingedburro/FitPhotage" target="wmauz"> FitPhotage Repository </a></p>
+					</div>
+				</section>
 
-								<p>The Arduino Uno was loaded with our code from Matlab that utilized a customized library in order to communicate with the serial monitor. From here we were able to create games on-board the glove, along with games it could interact with on the computer.</p>
+				<section class="spotlight">
+					<div class="image"><img src="images/mycaddie.png" alt="" /></div><div class="content">
+							
+						<header>
+							<h2> MyCaddie </h2>
+							<p> iOS Project: 2017 </p>
+						</header>
 
-								<p>Here is a link to check it out <a href="https://www.youtube.com/watch?v=t2WCEmc5u0Q&t=1s" target="wmauz"> in action</a> <br /></p>
-							</div>
-					</section>
+						<p> Throughout 2017, I worked with my business partner <a href="https://kliao2016.github.io" target="kliao"> Kevin Liao</a> on our first iOS app. Neither of us had any experience with app development, though we decided to learn the process and give it our best shot. We finished the app and published it to the App Store January 1st, 2018*.</p>
 
+						<p>The app uses a Firebase database to keep user and golf course data securely on the cloud. MyCaddie was programmed in Xcode using the Swift programming language, using Storyboards and UIKit. Design work for the app was done using Sketch.
 
-				<!-- Footer -->
-					<footer id="footer">
+						<p>Check out the app's website: <a href="http://mycaddie.tk" target="wmauz"> MyCaddie Website </a></p>
 
-						<h5> Contact me using the links below </h5> <br>
-						<ul class="icons">
-							<li><a href="https://plus.google.com/114969112884849101803" target="_blank" class="icon fa-google-plus-official"><span class="label">Google+</span></a></li>
-							<li><a href="https://github.com/wmauz677" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="mailto:wmauz@mymail.mines.edu" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; 2018 WESTON MAUZ </li>
-						</ul>
-					</footer>
+						<p>Here is the repository on Github: <a href="https://github.com/kliao2016/MyCaddie" target="wmauz"> MyCaddie Repository </a></p>
 
-			</div>
+						<p>*The app no longer exists on the App Store due to the expiration of our enrollment in the Apple Developer Program.</p>
+					</div>
+				</section>
+
+				<section class="spotlight">
+						<div class="image"><img src="images/temple.png" alt="" /></div><div class="content">
+
+						<header>
+							<h2> Chroma Temple </h2>
+							<p> Roguelike Video Game: Fall 2017</p>
+						</header>
+
+						<p> I participated in a Game Jam at University of Souther California in the Fall of 2017 with absolutely no knowledge of game development or Unity (Game-making software). Over the course of 24 hours, I worked with five others who had limited knowledge of game development and we managed to produce a basic 2D roguelike game called "Chroma Temple".</p>
+
+						<p> The theme of the Jam was "Color", so we decided to make a game where the main character was placed in a black and had to collect the 3 elements/colors in order to restore them to the world. </p>
+
+						<p> Overall, the game was basic and the functionality was minimal, though I am happy with how our group of inexperienced game developers was able to produce a functioning game in 24 hours. We recieved the design award for the artistic element of our game.</p>
+						</div>
+				</section>
+
+				<section class="spotlight">
+					<div class="image"><img src="images/glove.jpg" alt="" /></div><div class="content">
+
+						<header>
+							<h2> Gaming Glove </h2>
+							<p> Video Game Console/Controller: Spring 2016</p>
+						</header>
+
+						<p>During the Spring semester of 2016, I made a video-gaming glove with my partner, John Hickey. In our Intro to Mechanical Engineering class, our task was to create something using Matlab, Arduino, and sensors.</p>
+
+						<p>Due to both of our interests in video games, we created a glove to provide a new gaming experience. We loaded an Arduino Uno with code from Matlab that utilized a customized library in order to communicate with the serial monitor. For sensorory input, the glove utilized two accelerometers, flex sensors on the fingers, and a force sensor.</p>
+
+						<p>We programmed custom games to be played on-board the glove, including: Rock-Paper-Scissors, block-jump (platformer), and space-war (shooter). The glove was also able to interact with games on the computer. Pre-programmed games were able to be played using the custom controls of the glove, which could be modified by the user. The glove acted both as a video gaming console and also a controller.</p>
+
+						<p>Here is a link to check it out <a href="https://www.youtube.com/watch?v=t2WCEmc5u0Q&t=1s" target="wmauz"> in action.</a> <br /></p>
+					</div>
+				</section>
+			</article>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<h5> Contact me using the links below </h5> <br>
+				<ul class="icons">
+					<li><a href="mailto:wmmauz@gmail.com" class="fas fa-envelope"><span class="label"></span></a></li>
+					<li><a href="https://www.linkedin.com/in/weston-mauz-789604a5/" target="_blank" class="fab fa-linkedin"><span class="label"></span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; 2020 WESTON MAUZ </li>
+				</ul>
+			</footer>
+
+		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
