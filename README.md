@@ -20,7 +20,7 @@
   <h3 align="center">Weston Mauz CV Website</h3>
 
   <p align="center">
-    A comprehensive web resume / portfolio
+    A comprehensive web portfolio
     <!-- <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br /> -->
@@ -197,6 +197,7 @@ Analytics
 [status-shield]: https://img.shields.io/website?down_color=lightgrey&down_message=offline&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fwmauz677.github.io%2FpersonalWeb%2F
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[product-screenshot]: images/main-screenshot.png
 
 
 <!-- [contributors-shield]: https://img.shields.io/github/languages/top/wmauz677/personalWeb?style=for-the-badge
@@ -208,5 +209,4 @@ Analytics
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/main-screenshot.png -->
+[linkedin-url]: https://linkedin.com/in/othneildrew -->
