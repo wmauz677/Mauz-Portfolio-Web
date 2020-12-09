@@ -22,14 +22,14 @@
   <p align="center">
     A comprehensive web portfolio
     <!-- <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com"><strong>Explore the docs »</strong></a>
     <br /> -->
     <!-- <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
+    <a href="https://github.com">Request Feature</a> -->
   </p>
 </p>
 
@@ -134,7 +134,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 <!-- ROADMAP -->
 <!-- ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
+See the [open issues](https://github.com/username/project/issues) for a list of proposed features (and known issues). -->
 
 
 
@@ -161,7 +161,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 <!-- ## Contact
 
-Weston Mauz - [@your_twitter](https://twitter.com/your_username) - wmmauz@gmail.com -->
+Weston Mauz - [@your_twitter](https://twitter.com/your_username) - email@email.com -->
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -174,7 +174,7 @@ Licensing
 
 Templates
 * [HTML5 UP](https://html5up.net)
-* [Img Shields](https://shields.io)
+* [IMG Shields](https://shields.io)
 * [README Template](https://github.com/othneildrew/Best-README-Template)
 
 Text Editors
@@ -195,18 +195,6 @@ Analytics
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [language-shield]: https://img.shields.io/github/languages/top/wmauz677/personalWeb?style=for-the-badge
 [status-shield]: https://img.shields.io/website?down_color=lightgrey&down_message=offline&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fwmauz677.github.io%2FpersonalWeb%2F
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/wmauz677/personalWeb?color=red&style=for-the-badge
+[license-url]: https://github.com/wmauz677/personalWeb/blob/gh-pages/LICENSE
 [product-screenshot]: images/main-screenshot.png
-
-
-<!-- [contributors-shield]: https://img.shields.io/github/languages/top/wmauz677/personalWeb?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew -->
