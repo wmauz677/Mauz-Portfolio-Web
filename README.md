@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://wmauz677.github.io/Mauz-Portfolio-Web/index.html" target="_blank">
+  <a href="https://wmauz677.github.io/Mauz-Portfolio-Web/index.html">
     <img src="icons/web.png" alt="Logo" width="80" height="80">
   </a>
 
