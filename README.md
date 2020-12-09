@@ -19,10 +19,10 @@
     <img src="icons/web.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Weston Mauz CV Website</h3>
+  <h3 align="center">Weston Mauz Web Portfolio</h3>
 
   <p align="center">
-    A comprehensive web portfolio
+    <!--     A comprehensive web portfolio -->
     <!-- <br />
     <a href="https://github.com"><strong>Explore the docs »</strong></a>
     <br /> -->
